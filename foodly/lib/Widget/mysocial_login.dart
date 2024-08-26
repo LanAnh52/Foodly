@@ -44,7 +44,7 @@ class SocialLogin extends StatelessWidget {
 
         const SizedBox(height: 17),
         Container(
-          width: MediaQuery.of(context).size.width *0.6,
+          width: MediaQuery.of(context).size.width *0.8,
           child: Row(
             children: [
               //Google
@@ -84,6 +84,26 @@ class SocialLogin extends StatelessWidget {
                   ),
                   child: 
                   Image.asset("images/phone.png", height: 40,),
+                )
+              ),
+
+              const SizedBox(width: 20),
+
+               Expanded(
+                child:Container(
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(6),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(.1),
+                        blurRadius: 10,
+                      )
+                    ]
+                  ),
+                  child: 
+                  Image.asset("images/Facebook.png", height: 40,),
                 )
               ),
             ],

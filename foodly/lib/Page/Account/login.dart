@@ -32,9 +32,10 @@ class _Login extends State<Login> {
               //buttons
               SizedBox (
                 width: double.infinity,
-                height: height / 3.2,
+                height: height / 3.5,
                 child: Image.asset("images/Logo.png")
               ),
+              const SizedBox(height: 25),
               TextFiledInput(
                 label: 'Email',
                 textEditingController: emailController, 

@@ -31,9 +31,10 @@ class _Signup extends State<Signup> {
           children: [
               SizedBox (
                 width: double.infinity,
-                height: height / 3.2,
-                child: Image.asset("images/Logo.png"),
+                height: height / 3.5,
+                child: Image.asset("images/Logo.png")
               ),
+              const SizedBox(height: 25),
               TextFiledInput(
                 label: 'Họ và tên',
                 textEditingController: nameController, 
